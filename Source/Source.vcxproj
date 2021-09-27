@@ -1,0 +1,256 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <ProjectGuid>{B17DD474-1083-417F-82FA-F698D98CB918}</ProjectGuid>
+    <RootNamespace>
+    </RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <ProjectName>TileGame</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>false</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <TargetName>Game</TargetName>
+    <IncludePath>Inc;$(LARCENGINE_DIR)Inc;$(DIRECTXTK12_DIR)Src;$(DIRECTXTK12_DIR)Inc;$(IncludePath)</IncludePath>
+    <LibraryPath>$(LARCENGINE_DIR)$(Platform)\$(Configuration)\;$(DIRECTXTK12_DIR)Bin\Desktop_2017_Win10\$(Platform)\$(Configuration)\;$(LibraryPath)</LibraryPath>
+    <CodeAnalysisRuleSet>NativeRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <OutDir>$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <TargetName>Game</TargetName>
+    <IncludePath>$(LARCENGINE_DIR)Inc;$(DIRECTXTK12_DIR)Src;$(DIRECTXTK12_DIR)Inc;$(VLD_DIR)include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(LARCENGINE_DIR)$(Platform)\$(Configuration)\;$(DIRECTXTK12LIB_DIR)$(Platform)\$(Configuration)\;$(VLD_DIR)lib\$(Platform)\;$(LibraryPath)</LibraryPath>
+    <CodeAnalysisRuleSet>NativeRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <OutDir>$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <TargetName>Game</TargetName>
+    <IncludePath>Inc;$(LARCENGINE_DIR)Inc;$(DIRECTXTK12_DIR)Src;$(DIRECTXTK12_DIR)Inc;$(IncludePath)</IncludePath>
+    <LibraryPath>$(LARCENGINE_DIR)$(Platform)\$(Configuration)\;$(DIRECTXTK12_DIR)Bin\Desktop_2017_Win10\$(Platform)\$(Configuration)\;$(LibraryPath)</LibraryPath>
+    <CodeAnalysisRuleSet>NativeRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <OutDir>$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <TargetName>Game</TargetName>
+    <IncludePath>$(LARCENGINE_DIR)Inc;$(DIRECTXTK12_DIR)Src;$(DIRECTXTK12_DIR)Inc;$(VLD_DIR)include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(LARCENGINE_DIR)$(Platform)\$(Configuration)\;$(DIRECTXTK12LIB_DIR)$(Platform)\$(Configuration)\;$(VLD_DIR)lib\$(Platform)\;$(LibraryPath)</LibraryPath>
+    <CodeAnalysisRuleSet>NativeRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <OutDir>$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>DebugFull</GenerateDebugInformation>
+      <AdditionalDependencies>Engine.lib;d3d12.lib;dxgi.lib;dxguid.lib;uuid.lib;runtimeobject.lib;DirectXTK12.lib;xinput.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <OutputFile>$(OutDir)Game.exe</OutputFile>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>DebugFull</GenerateDebugInformation>
+      <AdditionalDependencies>Engine.lib;d3d12.lib;dxgi.lib;dxguid.lib;uuid.lib;runtimeobject.lib;DirectXTK12.lib;xinput.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <OutputFile>$(OutDir)Game.exe</OutputFile>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>Engine.lib;d3d12.lib;dxgi.lib;dxguid.lib;uuid.lib;runtimeobject.lib;DirectXTK12.lib;xinput.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <SubSystem>Windows</SubSystem>
+      <OutputFile>$(OutDir)Game.exe</OutputFile>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>false</DataExecutionPrevention>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>Engine.lib;d3d12.lib;dxgi.lib;dxguid.lib;uuid.lib;runtimeobject.lib;DirectXTK12.lib;xinput.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <SubSystem>Windows</SubSystem>
+      <OutputFile>$(OutDir)Game.exe</OutputFile>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>false</DataExecutionPrevention>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="BadCharacter.cpp" />
+    <ClCompile Include="BadGoblin.cpp" />
+    <ClCompile Include="BadMinotaur.cpp" />
+    <ClCompile Include="Bullet.cpp" />
+    <ClCompile Include="Character.cpp" />
+    <ClCompile Include="Coin.cpp" />
+    <ClCompile Include="Common.cpp" />
+    <ClCompile Include="CyborgPlayer.cpp" />
+    <ClCompile Include="DesolateDesertLevel.cpp" />
+    <ClCompile Include="Fireball.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="GameObject.cpp" />
+    <ClCompile Include="GamepadWrapper.cpp" />
+    <ClCompile Include="HatSelectScene.cpp" />
+    <ClCompile Include="HUDObject.cpp" />
+    <ClCompile Include="LaserBeam.cpp" />
+    <ClCompile Include="LevelSelectScene.cpp" />
+    <ClCompile Include="MageTower.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="OptionsScene.cpp" />
+    <ClCompile Include="PlainsLevel.cpp" />
+    <ClCompile Include="PlayerCharacter.cpp" />
+    <ClCompile Include="PseudoForce.cpp" />
+    <ClCompile Include="RangeTower.cpp" />
+    <ClCompile Include="Renderer.cpp" />
+    <ClCompile Include="Scene.cpp" />
+    <ClCompile Include="BaseLevelScene.cpp" />
+    <ClCompile Include="ShopMenu.cpp" />
+    <ClCompile Include="Spire.cpp" />
+    <ClCompile Include="ThrowingAxe.cpp" />
+    <ClCompile Include="TiledScene.cpp" />
+    <ClCompile Include="TitleScreenScene.cpp" />
+    <ClCompile Include="Tower.cpp" />
+    <ClCompile Include="VikingPlayer.cpp" />
+    <ClCompile Include="WaveSpawner.cpp" />
+    <ClCompile Include="WizardPlayer.cpp" />
+    <ClCompile Include="WolfBaddie.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AnimationDesc.h" />
+    <ClInclude Include="BadCharacter.h" />
+    <ClInclude Include="BadGoblin.h" />
+    <ClInclude Include="BadMinotaur.h" />
+    <ClInclude Include="Bullet.h" />
+    <ClInclude Include="Character.h" />
+    <ClInclude Include="Coin.h" />
+    <ClInclude Include="Common.h" />
+    <ClInclude Include="CyborgPlayer.h" />
+    <ClInclude Include="DesolateDesertLevel.h" />
+    <ClInclude Include="Explosive.h" />
+    <ClInclude Include="Fireball.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="GameDefines.h" />
+    <ClInclude Include="GameObject.h" />
+    <ClInclude Include="GamepadWrapper.h" />
+    <ClInclude Include="HatSelectScene.h" />
+    <ClInclude Include="HUDObject.h" />
+    <ClInclude Include="LaserBeam.h" />
+    <ClInclude Include="LevelSelectScene.h" />
+    <ClInclude Include="MageTower.h" />
+    <ClInclude Include="OptionsScene.h" />
+    <ClInclude Include="Piercing.h" />
+    <ClInclude Include="PlainsLevel.h" />
+    <ClInclude Include="PlayerCharacter.h" />
+    <ClInclude Include="Projectile.h" />
+    <ClInclude Include="PseudoForce.h" />
+    <ClInclude Include="RangeTower.h" />
+    <ClInclude Include="Renderer.h" />
+    <ClInclude Include="Scene.h" />
+    <ClInclude Include="BaseLevelScene.h" />
+    <ClInclude Include="ShopMenu.h" />
+    <ClInclude Include="Sndlist.h" />
+    <ClInclude Include="SpawnDesc.h" />
+    <ClInclude Include="Spire.h" />
+    <ClInclude Include="ThrowingAxe.h" />
+    <ClInclude Include="TiledScene.h" />
+    <ClInclude Include="TitleScreenScene.h" />
+    <ClInclude Include="Tower.h" />
+    <ClInclude Include="VikingPlayer.h" />
+    <ClInclude Include="WaveSpawner.h" />
+    <ClInclude Include="WizardPlayer.h" />
+    <ClInclude Include="WolfBaddie.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Source.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

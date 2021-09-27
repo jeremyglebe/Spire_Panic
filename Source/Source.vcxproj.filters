@@ -1,0 +1,242 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Common.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Renderer.cpp" />
+    <ClCompile Include="Scene.cpp">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="TiledScene.cpp">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Character.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleScreenScene.cpp">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Spire.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="HUDObject.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerCharacter.cpp">
+      <Filter>Objects\Players</Filter>
+    </ClCompile>
+    <ClCompile Include="WizardPlayer.cpp">
+      <Filter>Objects\Players</Filter>
+    </ClCompile>
+    <ClCompile Include="VikingPlayer.cpp">
+      <Filter>Objects\Players</Filter>
+    </ClCompile>
+    <ClCompile Include="HatSelectScene.cpp">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="GamepadWrapper.cpp" />
+    <ClCompile Include="MageTower.cpp">
+      <Filter>Objects\Towers</Filter>
+    </ClCompile>
+    <ClCompile Include="RangeTower.cpp">
+      <Filter>Objects\Towers</Filter>
+    </ClCompile>
+    <ClCompile Include="Tower.cpp">
+      <Filter>Objects\Towers</Filter>
+    </ClCompile>
+    <ClCompile Include="OptionsScene.cpp">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseLevelScene.cpp">
+      <Filter>Scenes\Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>Objects\Projectiles</Filter>
+    </ClCompile>
+    <ClCompile Include="Fireball.cpp">
+      <Filter>Objects\Projectiles</Filter>
+    </ClCompile>
+    <ClCompile Include="BadCharacter.cpp">
+      <Filter>Objects\Baddies</Filter>
+    </ClCompile>
+    <ClCompile Include="BadGoblin.cpp">
+      <Filter>Objects\Baddies</Filter>
+    </ClCompile>
+    <ClCompile Include="BadMinotaur.cpp">
+      <Filter>Objects\Baddies</Filter>
+    </ClCompile>
+    <ClCompile Include="WaveSpawner.cpp" />
+    <ClCompile Include="ShopMenu.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Coin.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="DesolateDesertLevel.cpp">
+      <Filter>Scenes\Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="PseudoForce.cpp" />
+    <ClCompile Include="LevelSelectScene.cpp">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="ThrowingAxe.cpp">
+      <Filter>Objects\Projectiles</Filter>
+    </ClCompile>
+    <ClCompile Include="LaserBeam.cpp">
+      <Filter>Objects\Projectiles</Filter>
+    </ClCompile>
+    <ClCompile Include="CyborgPlayer.cpp">
+      <Filter>Objects\Players</Filter>
+    </ClCompile>
+    <ClCompile Include="WolfBaddie.cpp">
+      <Filter>Objects\Baddies</Filter>
+    </ClCompile>
+    <ClCompile Include="PlainsLevel.cpp">
+      <Filter>Scenes\Levels</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Common.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="GameDefines.h" />
+    <ClInclude Include="Renderer.h" />
+    <ClInclude Include="Sndlist.h" />
+    <ClInclude Include="Scene.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="TiledScene.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Character.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleScreenScene.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Spire.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationDesc.h" />
+    <ClInclude Include="HUDObject.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerCharacter.h">
+      <Filter>Objects\Players</Filter>
+    </ClInclude>
+    <ClInclude Include="WizardPlayer.h">
+      <Filter>Objects\Players</Filter>
+    </ClInclude>
+    <ClInclude Include="VikingPlayer.h">
+      <Filter>Objects\Players</Filter>
+    </ClInclude>
+    <ClInclude Include="HatSelectScene.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="GamepadWrapper.h" />
+    <ClInclude Include="RangeTower.h">
+      <Filter>Objects\Towers</Filter>
+    </ClInclude>
+    <ClInclude Include="MageTower.h">
+      <Filter>Objects\Towers</Filter>
+    </ClInclude>
+    <ClInclude Include="Tower.h">
+      <Filter>Objects\Towers</Filter>
+    </ClInclude>
+    <ClInclude Include="OptionsScene.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseLevelScene.h">
+      <Filter>Scenes\Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="SpawnDesc.h" />
+    <ClInclude Include="Bullet.h">
+      <Filter>Objects\Projectiles</Filter>
+    </ClInclude>
+    <ClInclude Include="Fireball.h">
+      <Filter>Objects\Projectiles</Filter>
+    </ClInclude>
+    <ClInclude Include="Explosive.h">
+      <Filter>Properties</Filter>
+    </ClInclude>
+    <ClInclude Include="Projectile.h">
+      <Filter>Properties</Filter>
+    </ClInclude>
+    <ClInclude Include="BadCharacter.h">
+      <Filter>Objects\Baddies</Filter>
+    </ClInclude>
+    <ClInclude Include="BadGoblin.h">
+      <Filter>Objects\Baddies</Filter>
+    </ClInclude>
+    <ClInclude Include="BadMinotaur.h">
+      <Filter>Objects\Baddies</Filter>
+    </ClInclude>
+    <ClInclude Include="WaveSpawner.h" />
+    <ClInclude Include="ShopMenu.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Coin.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="DesolateDesertLevel.h">
+      <Filter>Scenes\Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="PseudoForce.h" />
+    <ClInclude Include="LevelSelectScene.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="ThrowingAxe.h">
+      <Filter>Objects\Projectiles</Filter>
+    </ClInclude>
+    <ClInclude Include="Piercing.h">
+      <Filter>Properties</Filter>
+    </ClInclude>
+    <ClInclude Include="LaserBeam.h">
+      <Filter>Objects\Projectiles</Filter>
+    </ClInclude>
+    <ClInclude Include="CyborgPlayer.h">
+      <Filter>Objects\Players</Filter>
+    </ClInclude>
+    <ClInclude Include="WolfBaddie.h">
+      <Filter>Objects\Baddies</Filter>
+    </ClInclude>
+    <ClInclude Include="PlainsLevel.h">
+      <Filter>Scenes\Levels</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Source.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Scenes">
+      <UniqueIdentifier>{dbcd9f21-2c29-4fc9-b846-cd8ad838df3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects">
+      <UniqueIdentifier>{fcfe40d0-0668-4e21-8f93-1a01eff0808a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\Players">
+      <UniqueIdentifier>{b5c7cfe7-d5cc-4799-b634-54a321244af7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\Towers">
+      <UniqueIdentifier>{5b908b78-61c4-4b73-a712-c3bd7c29ad34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes\Levels">
+      <UniqueIdentifier>{8aace6fe-8e58-4cdb-b790-0ee95ee2eb3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\Projectiles">
+      <UniqueIdentifier>{a94f225f-267b-4eac-8fb2-cd2265d2e4bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Properties">
+      <UniqueIdentifier>{318ac610-e21c-47b3-99df-21107ddeaea4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\Baddies">
+      <UniqueIdentifier>{081718fd-0d90-4eb6-a936-1f139a8a3e71}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
